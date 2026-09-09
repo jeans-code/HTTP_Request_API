@@ -1,1 +1,15 @@
-
+{
+  "name": "HTTP_Request_API",
+  "version": "1.0.0",
+  "description": "A lot like HttpBin.",
+  "main": "netlify/functions/index.mjs",
+  "scripts": {
+    "start": "netlify dev",
+    "build": "echo 'No build required.'"
+  },
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "axios": "^1.7.7",
+    "@netlify/functions": "*"
+  }
+}

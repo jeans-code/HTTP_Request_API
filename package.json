@@ -4,6 +4,7 @@
   "description": "A lot like HttpBin.",
   "main": "netlify/functions/index.ts",
   "type": "module",
+  "moduleResolution": "node16",
   "scripts": {
     "start": "netlify dev",
     "build": "echo 'No build required.'"
